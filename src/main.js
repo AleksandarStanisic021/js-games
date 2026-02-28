@@ -1,6 +1,4 @@
 import "./style.css";
-let canvas = document.querySelector("#canvas");
-let sasa = "sasa";
-console.log(`yoyo ${sasa}`);
 
-console.log("Canvas:", canvas);
+let canvas = document.querySelector("#canvas");
+const ctx = canvas.getContext("2d");
